@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+header{
+    background-image: url('../img/forex.png');
+    background-position: center center; 
+    background-size: cover;
+    height: 300px;
+    width: 100%;
+    background-attachment: fixed;
+}
+
+.espacio{
+    width: 100%;
+    height: 1900px;
+}
+
+.perfil{
+    background-image: url('../img/cv.png');
+    width: 200px;
+    height: 200px;
+    background-position: center center;
+    background-size: cover;
+    border-radius: 200px;
+    position: relative;
+    left: 45%;
+    top: -100px;
+    z-index: 1;
+}
+.content{
+    background: linear-gradient(to top right, blue, white);
+    width: 100%;
+    height: 1000px;
+    position: relative;
+    top: -200px;
+}
+.nombre{
+    color: rgb(255, 255, 255);
+    display: inline-block;
+    font-family: 'major mono display', monospace;
+    font-size: 50px;
+    position: relative;
+    top: -1190px;
+    left: 60px;
+    color: rgb(0, 0, 0);
+}
+.nombre_{
+    color: rgb(255, 255, 255);
+    display: inline-block;
+    font-family: 'major mono display', monospace;
+    font-size: 50px;
+    position: relative;
+    top: -1190px;
+    color: black;
+    right: -23%;
+    background-color: linear-gradient(to left, blue, white);
+}
